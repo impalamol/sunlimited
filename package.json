@@ -1,0 +1,16 @@
+{
+  "name": "sunlimited-homepage",
+  "version": "1.0.0",
+  "description": "S'unlimited Solar homepage — designed & developed by aiDzines",
+  "scripts": {
+    "build:css": "sass scss/styles.scss css/styles.css --style=compressed --no-source-map",
+    "watch:css": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^6.0.0-alpha.2",
+    "sass": "^1.108.2"
+  }
+}
